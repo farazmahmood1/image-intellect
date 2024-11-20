@@ -26,6 +26,7 @@ const Navbar = () => {
                 <li><Link onClick={() => setMenuActive(false)} to="/photos">PHOTOS</Link></li>
                 <li><Link onClick={() => setMenuActive(false)} to="/videos">VIDEOS</Link></li>
                 <li><Link onClick={() => setMenuActive(false)} to="/contact">CONTACT US</Link></li>
+                <li><Link onClick={() => setMenuActive(false)} to="/contact">LOGIN</Link></li>
               </ul>
             </div>
           </div>
@@ -44,7 +45,11 @@ const Navbar = () => {
               </li>
 
               <li className="nav-item">
-                <Link className="nav-link ms-2 me-5" to='/contact'>CONTACT US</Link>
+                <Link className="nav-link ms-2 me-2" to='/contact'>CONTACT US</Link>
+              </li>
+
+              <li className="nav-item">
+                <Link className="nav-link ms-2 me-5" to='/login'>LOGIN</Link>
               </li>
 
               {/* <li className="nav-item ">
