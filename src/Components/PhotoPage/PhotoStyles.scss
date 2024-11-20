@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css?family=Vidaloka');
+.photo-section {
+  background-color: #e9e9e9;
+
+  .title-image {
+    width: 100%;
+    height: auto;
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  }
+  .photo-section-content-element-parent {
+    display: flex;
+    .photo-section-content-element {
+      padding: 40px;
+      width: 70%;
+      h1 {
+        color: #10181d;
+        font-family: 'Vidaloka', sans-serif;
+        font-size: 60px;
+        line-height: 60px;
+        font-style: normal;
+        text-align: center;
+        font-weight: 400;
+        letter-spacing: 0px;
+        text-transform: none;
+      }
+      p {
+        color: #0a0909;
+        font-family: 'Arial', sans-serif;
+        font-size: 16px;
+        line-height: 25px;
+        font-style: normal;
+        font-weight: 300;
+        &:not(:last-child) {
+          margin-bottom: 1em;
+        }
+        strong {
+          font-weight: bold;
+        }
+        br {
+          display: block;
+          margin-bottom: 1em;
+          content: '';
+        }
+      }
+    }
+    .photo-section-photos-element {
+      column-count: 2;
+      column-gap: 10px;
+      padding: 20px;
+      width: 30%;
+      // padding-left: 4%;
+      transition: column-count 0.3s ease-in-out;
+      div {
+        width: 100%;
+        height: auto;
+        position: relative;
+        overflow: hidden;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-bottom: 10px;
+        img {
+          width: 100%;
+          height: auto;
+          object-fit: cover;
+          transition: transform 0.3s ease-in-out;
+        }
+        &:hover img {
+          transform: scale(1.1);
+        }
+      }
+    }
+    @media (max-width: 768px) {
+      display: flex;
+      flex-direction: column;
+      .photo-section-content-element {
+        padding: 40px;
+        width: 100%;
+      }
+    .photo-section-photos-element{
+      // width: 100%;
+        column-count: 1;
+        transition: column-count 0.3s ease-in-out;
+        width: 100%;
+        margin: 0 auto;
+    }
+    }
+  }
+  @media (max-width: 768px) {
+    .title-image {
+      padding-top: 20%;
+    }
+  }
+}
+.vc_row.wpb_row.section.vc_row-fluid.vc_custom_1567164061176.grid_section {
+  text-align: center;
+}
+.wpb_text_column.wpb_content_element {
+  h1 {
+    font-size: 28px;
+    text-align: left;
+  }
+  p {
+    &.vc_empty_space {
+      height: 32px;
+    }
+    &:not(.vc_empty_space) {
+      text-align: justify;
+    }
+  }
+  h2 {
+    text-align: left;
+  }
+  a {
+    font-weight: bold;
+  }
+}
+// photos gelrry
+.photos-container {
+  // margin: 10px;
+  column-count: 6;
+  column-gap: 10px;
+  width: 100%;
+  padding: 20px;
+  // padding-left: 4%;
+  transition: column-count 0.3s ease-in-out;
+  div {
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      transition: transform 0.3s ease-in-out;
+    }
+    &:hover img {
+      transform: scale(1.1);
+    }
+  }
+  @media (max-width: 600px) {
+    column-count: 1;
+    transition: column-count 0.3s ease-in-out;
+    width: 100%;
+    padding: 40px;
+    // margin: 0 auto;
+  }
+}
+.photosection {
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+  .photosection-image {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+  .photosection-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    padding: 7.2%;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .3);
+    -webkit-transition: opacity .3s ease-out;
+    -moz-transition: opacity .3s ease-out;
+    transition: opacity .3s ease-out;
+    .photosection-content-inner {
+      color: white;
+    }
+    .photosection-text-holder {
+      margin-bottom: 10px;
+    }
+  }
+}

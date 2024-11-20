@@ -1,0 +1,61 @@
+/* Homeabout.scss */
+@import url("https://fonts.googleapis.com/css?family=Merriweather");
+
+.homeabout-container {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+}
+
+.homeabt-img {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  background-color: rgba(252, 193, 34, 0.9);
+  padding: 3%;
+}
+
+.col-lg-6.homeabt-content {
+  flex: 1 1 100%;
+
+  .sub-heading {
+    font-size: 40px;
+    font-family: 'Merriweather', serif;
+  }
+}
+
+@media (max-width: 988px) {
+  .col-lg-6.homeabt-content {
+    flex: 1 1 50%;
+  }
+
+  .overlay {
+    position: relative;
+    top: 0;
+    transform: none;
+  }
+}
+
+.homeabt-listing {
+  .bigtxt {
+    color: #231f20;
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 3px;
+  }
+
+  .smalltxt {
+    font-size: 13px;
+    color: #000;
+  }
+}

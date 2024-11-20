@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather");
+
+.sticky-btn {
+  position: fixed;
+  bottom: 50%;
+  right: 0px;
+  transform: translateY(50%);
+  padding: 5px;
+  width: 110px;
+  font-weight: 400;
+  color: white;
+  background-color: #fcc122;
+  border: none;
+  cursor: pointer;
+  z-index: 999;
+  font-size: 17px;
+  border-radius: 30px 0px 0px 30px;
+  webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 50px 0px 0px 50px;
+  -moz-border-radius: 50px 0px 0px 50px;
+  -webkit-border-radius: 50px 0px 0px 50px;
+
+  i {
+    font-size: 25px;
+  }
+}
+
+.sticky-btn:hover {
+  background-color: #000;
+
+}
+
+.sticky-btn Link {
+  background-color: #000;
+  color: #fff;
+}
+
+.modal {
+  display: none;
+
+  &.show {
+    display: block;
+    z-index: 99999;
+  }
+
+  .modal-dialog {
+    .modal-content {
+      .modal-header {
+        background-color: #fcc122;
+
+        p {
+          font-size: 20px;
+          margin-bottom: 0;
+        }
+      }
+
+      .modal-body {
+        .ctaForm {
+          .row {
+            .form-group {
+              display: flex;
+              justify-content: space-between;
+              background-color: #fcc122;
+
+              label {
+                flex: 0 0 45%; // Adjust label width
+              }
+
+              .col-md-9 {
+                flex: 1;
+
+                .wpcf7-form-control-wrap {
+                  width: 100%;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .modal-footer {
+        button.btn-default {
+          margin-right: 10px;
+        }
+
+        input.btn-submit {
+          &:disabled {
+            opacity: 0.7;
+            cursor: not-allowed;
+          }
+        }
+      }
+    }
+  }
+}

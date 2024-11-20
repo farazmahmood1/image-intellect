@@ -1,0 +1,122 @@
+$primary-color: #000;
+$background-color: rgba(247, 192, 43, 0.626); // Yellow color
+$background-color2: rgba(59, 58, 57, 0.527); // Yellow color
+@import url("https://fonts.googleapis.com/css?family=Merriweather");
+
+.perform-item {
+border-bottom: 3px solid #fcc32b;
+  img{
+    width: 100%;
+  }
+
+  &:hover {
+    .perform-btnwrp {
+      opacity: 1;
+      pointer-events: auto;
+    }
+  }
+
+  position: relative;
+  padding: 0;
+
+  .perform-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 100%;
+    background-color: $background-color;
+    transition: top 0.6s;
+  }
+
+  .perform-content {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    background-color: $background-color2;
+    padding: 20px;
+    height: 110px;
+    color: #fff;
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 26px;
+    z-index: 20;
+    transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+  }
+
+  &:hover {
+    .perform-overlay {
+      top: 0;
+    }
+
+    .perform-content {
+      transform: translateY(-40%);
+    }
+  }
+
+  &:hover .perform-content {
+    background-color: transparent;
+    color: #000; // Change font color to black on hover
+  }
+}
+
+.perform-btnwrp {
+  // position: absolute;
+  // bottom: 0px;
+  // left: 15%;
+  // transform: translateX(-50%);
+  margin-top: 10px;
+  opacity: 0;
+  pointer-events: none; // Disable pointer events when not visible
+  transition: opacity 0.3s ease-out;
+}
+
+.performance-innerwrp {
+  .sub-heading {
+    margin-top: 70px;
+    text-align: center;
+    color: $primary-color;
+    font-size: 35px;
+    font-family: 'Merriweather', serif;
+    font-weight: 100;
+
+    @media (max-width: 767px) {
+      font-size: 20px;
+    }
+
+    @media (max-width: 991px) {
+      font-size: 20px;
+    }
+  }
+}
+
+.h1,
+.h2,
+.h3,
+h1,
+h2,
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.perform-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: $background-color2;
+  padding: 20px;
+
+  color: #fff;
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+  font-size: 20px;
+  height: auto;
+}
+
+.perform-head {
+  margin-bottom: 0;
+}

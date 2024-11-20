@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Vidaloka');
+
+.video-title-imagetitle-image {
+    width: 100%;
+    height: auto;
+    margin-top: 90px;
+
+    img {
+        width: 100%;
+        height: auto;
+        display: block;
+        @media (max-width: 767px) {
+            width: 100%;
+            height: auto;
+        }
+    }
+    @media (max-width: 767px) {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+.vc_row {
+    &.wpb_row {
+        &.section {
+            &.vc_row-fluid {
+                &.vc_custom_1567164061176 {
+                    &.grid_section {
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.wpb_text_column {
+    &.wpb_content_element {
+        h1 {
+            font-size: 28px;
+            text-align: left;
+        }
+
+        p {
+            &.vc_empty_space {
+                height: 32px;
+            }
+
+            &:not(.vc_empty_space) {
+                text-align: justify;
+            }
+        }
+
+        h2 {
+            text-align: left;
+        }
+
+        a {
+            font-weight: bold;
+        }
+    }
+}
+
+.video-section-content-element {
+    padding: 60px;
+    width: 70%;
+    @media (max-width: 768px) {
+          padding: 40px;
+          width: 100%;
+        }
+    
+    h1 {
+        color: #10181d;
+        font-family: 'Vidaloka', sans-serif;
+        font-size: 60px;
+        line-height: 60px;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: 0px;
+        text-transform: none;
+    }
+
+    p {
+        color: #0a0909;
+        font-family: 'Arial', sans-serif;
+        font-size: 16px;
+        line-height: 25px;
+        font-style: normal;
+        font-weight: 300;
+
+        &:not(:last-child) {
+            margin-bottom: 1em;
+        }
+
+        strong {
+            font-weight: bold;
+        }
+
+        br {
+            display: block;
+            margin-bottom: 1em;
+            content: '';
+        }
+    }
+
+}
+
+.videosection {
+    position: relative;
+    width: 100%;
+    height: auto;
+    // padding: 30px;
+
+    .videosection-image {
+        position: relative;
+
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+            background-color: rgba(0, 0, 0, .3);
+            -webkit-transition: opacity .3s ease-out;
+            -moz-transition: opacity .3s ease-out;
+            transition: opacity .3s ease-out;
+        }
+    }
+
+    .videosection-content {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 10;
+        padding: 7.2%;
+        box-sizing: border-box;
+        background-color: rgba(0, 0, 0, .3);
+        -webkit-transition: opacity .3s ease-out;
+        -moz-transition: opacity .3s ease-out;
+        transition: opacity .3s ease-out;
+        text-align: center;
+        color: #fff;
+        overflow: hidden;
+
+        .videosection-text-holder {
+            padding: 7.2%;
+            font-family: 'Vidaloka', sans-serif;
+            font-size: 30px;
+            line-height: 60px;
+            font-style: normal;
+            font-weight: 400;
+            letter-spacing: 0px;
+            text-transform: none;
+            margin-top: 120px;
+        }
+    }
+}
+
+
+// videosection ka part
+.videosection-innerwrap {
+    position: relative;
+    padding: 50px;
+
+    @media (max-width: 767px) {
+        padding: 10px;
+    }
+
+    .videosection-listing {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        li {
+            position: relative;
+
+            .individualvideosection-list {
+                width: 98%;
+                margin-top: 15px;
+                position: relative;
+
+                .videosection-imgsect {
+                    width: 100%;
+                    height: 100%;
+
+                    iframe {
+                        width: 100%;
+                        object-fit: cover;
+
+                        @media (max-width: 767px) {
+                            width: 100%;
+                            height: auto;
+                        }
+                    }
+                }
+
+                @media (max-width: 767px) {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+    }
+}
