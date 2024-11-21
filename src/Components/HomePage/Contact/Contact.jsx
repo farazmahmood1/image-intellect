@@ -46,13 +46,13 @@ const Contact = () => {
             <div className='row my-contact-form'>
                 <div className='col-lg-4 contact-info'>
                     <h2>Contact Us</h2>
-                    <p>Contact Yellow Mellow today to embark on a visual journey that celebrates your love story and cultural essence. Let us be the storytellers of your special moments, ensuring every frame reflects the beauty and richness of your celebration.</p>
+                    <p>Contact Image Intellect today to embark on a visual journey that celebrates your love story and cultural essence. Let us be the storytellers of your special moments, ensuring every frame reflects the beauty and richness of your celebration.</p>
                     <div className='contact-details' style={{marginBottom:"5px"}}>
                         <p>Contact us:</p>
-                        <a target='_blank' href='https://wa.me/+16824100000' style={{ textDecoration: "none" }} ><img src={logo} style={{ width: "35px" }} /> +1 6824100000</a>
+                        <a target='_blank' href='' style={{ textDecoration: "none" }} ><img src={logo} style={{ width: "35px" }} /> +92 300 123456789</a>
                     </div>
                     <div className='contact-details'>
-                        <a target='_blank' href="https://www.instagram.com/yellowmellowfilms?igsh=am1oNHpjcHhrdXZp&utm_source=qr" style={{ textDecoration: "none" }} ><img src={instagram} style={{ width: "25px", marginLeft:"2px" }} />&nbsp;&nbsp;&nbsp;yellowmellowfilms</a>
+                        <a target='_blank' href="" style={{ textDecoration: "none" }} ><img src={instagram} style={{ width: "25px", marginLeft:"2px" }} />&nbsp;&nbsp;&nbsp;Image intellect</a>
                     </div>
                 </div>
 

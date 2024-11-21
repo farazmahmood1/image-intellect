@@ -14,8 +14,12 @@ const Homeabout = () => {
         />
         <div className="overlay col-lg-7">
           <div className="homeabt-content">
-            <h3 className="sub-heading" style={{ fontWeight: 400 }}>About Yellow Mellow Films</h3>
-            <p className="smallpara-txt" style={{ fontWeight: 400, paddingRight: "70px" }}>At Yellow Mellow, we understand that each wedding is a distinct chapter waiting to be told. Our team excels in adapting swiftly to your unique needs, creating memories brimming with joy, love, and emotions to be cherished for a lifetime. Based in Dallas, Houston, Austin, and San Antonio, our highly skilled Wedding Photographers & Cinematographers make Yellow Mellow the ultimate choice for your wedding photography needs.</p>
+            <h3 className="sub-heading" style={{ fontWeight: 400 }}>About Image Inellect</h3>
+            <p className="smallpara-txt" style={{ fontWeight: 400, paddingRight: "70px" }}>At our photography website, we are dedicated to transforming the way users experience and access their cherished memories. By integrating cutting-edge AI facial recognition technology, we provide a seamless platform for users to connect with their personal photo collections.
+
+Upon visiting our site, users can take a selfie to initiate the AI identification process. Once the system recognizes the individual, it quickly retrieves related photos from our extensive database, making it easy to find and enjoy treasured moments without the need for tedious manual searches.
+
+Our mission is to celebrate the beauty of every story through innovative technology, ensuring that each user can effortlessly relive their most significant memories. We are committed to providing a user-friendly experience that prioritizes privacy and security, empowering users to navigate their unique photo journeys with ease and confidence.</p>
             {/* <ul className="homeabt-listing list-inline d-flex ">
               <li>
                 <h4 className="bigtxt">20+ Marriages</h4>

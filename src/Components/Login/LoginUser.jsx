@@ -66,7 +66,7 @@ const LoginUser = () => {
                             <input
                                 type="number"
                                 name="broj"
-                                placeholder="BrojTelefona"
+                                placeholder="telephone"
                                 required
                                 value={signUpData.broj}
                                 onChange={handleSignUpChange}

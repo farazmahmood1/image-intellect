@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './NavbarStyles.scss';
 import { Link } from 'react-router-dom';
 import Logo from '../../Assets/Logo.jpg'
-
+import Logo2 from '../../SourceFiles/imag/logo1.png'
 const Navbar = () => {
 
   const [menuActive, setMenuActive] = useState(false);
@@ -16,7 +16,7 @@ const Navbar = () => {
     <div>
       <nav className="navbar navbar-expand-lg navbar-light fixed-top p-2" style={{ backgroundColor: "#fff", zIndex: 1000 }}>
         <div className="container-fluid">
-          <a className="navbar-brand p-0 ms-3" href="#"><img src={Logo} className='img-fluid logo-img' alt="logo" /></a>
+          <a className="navbar-brand p-0 ms-3" href="#"><img src={Logo2} className='img-fluid logo-img' alt="logo" /></a>
           <div className='dropdown-options'>
             <input type="checkbox" id="active" onChange={toggleMenu} checked={menuActive} />
             <label htmlFor="active" className="menu-btn"><i className="fas fa-bars" /></label>
@@ -25,8 +25,9 @@ const Navbar = () => {
                 <li><Link onClick={() => setMenuActive(false)} to="/">HOME</Link></li>
                 <li><Link onClick={() => setMenuActive(false)} to="/photos">PHOTOS</Link></li>
                 <li><Link onClick={() => setMenuActive(false)} to="/videos">VIDEOS</Link></li>
+                <li><Link onClick={() => setMenuActive(false)} to="/ViewEvent">VIEW GALLERY</Link></li>
                 <li><Link onClick={() => setMenuActive(false)} to="/contact">CONTACT US</Link></li>
-                <li><Link onClick={() => setMenuActive(false)} to="/contact">LOGIN</Link></li>
+                <li><Link onClick={() => setMenuActive(false)} to="/login">LOGIN</Link></li>
               </ul>
             </div>
           </div>
@@ -43,6 +44,11 @@ const Navbar = () => {
               <li className="nav-item">
                 <Link to='/videos' className='nav-link ms-2 me-2'>VIDEOS</Link>
               </li>
+
+              <li className="nav-item">
+                <Link to='/ViewEvent' className='nav-link ms-2 me-2'>VIEW EVENT</Link>
+              </li>
+
 
               <li className="nav-item">
                 <Link className="nav-link ms-2 me-2" to='/contact'>CONTACT US</Link>

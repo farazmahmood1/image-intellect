@@ -2,6 +2,7 @@ import React from 'react'
 import './PerspectivesStyles.scss'
 import { ImagesBaseUrl } from '../../SourceFiles/BaseUrl';
 import { Link, useNavigate } from 'react-router-dom'
+import Image1 from '../../SourceFiles/imag/pexels-a-r-shimanto-321946427-13779728.jpg'
 
 const Index = () => {
     const navigate = useNavigate();
@@ -20,10 +21,10 @@ const Index = () => {
                 </div>
             </div>
             <div class="background-image-container">
-                <img class="background-image" src={`${ImagesBaseUrl}/background.jpeg`} alt="" />
+                <img class="background-image" src={Image1} alt="" />
                 <div class="designthink-contsection">
                     <h2 className="sub-heading"><span className="yellow" style={{ color: "#fcc32b", fontWeight: 700 }}>For a Global Tapestry of Love</span></h2>
-                    <p className="smallpara-txt text-white" style={{ fontStyle: "italic", fontWeight: 600 }}>Embarking on the journey of love transcends borders and traditions. Yellow Mellow celebrates the cultural richness of diverse unions, weaving a tapestry of visual stories that resonate universally.</p>
+                    <p className="smallpara-txt text-white" style={{ fontStyle: "italic", fontWeight: 600 }}> Our photography website embraces the journey of love that crosses borders and traditions. By integrating advanced AI facial recognition technology, we celebrate the cultural richness of diverse unions through visual storytelling. When users visit the platform, they can take a selfie to start the AI identification process. Once recognized, the AI quickly retrieves related photos from our database. This unique feature allows users to effortlessly access their desired images, weaving together a tapestry of memories that resonate universally, without the hassle of manual searches..</p>
                     <div className="arrowbtn-wrap thinking-btnwrp">
                         <Link to='/photos' className="arrow-btn right-arrow">
                             <img src="https://www.nihilent.com/wp-content/themes/nihilent/images/yellowarrow.png" alt className="img-responsive" />
