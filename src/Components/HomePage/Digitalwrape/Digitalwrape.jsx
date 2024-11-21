@@ -25,8 +25,9 @@ const Digitalwrape = () => {
                             onMouseEnter={() => handleMouseEnter('digital1')}
                             onMouseLeave={handleMouseLeave}
                         >
-                            <a className="digi-head">Capturing the True Spirit of Celebrations</a>
-                            <p className="digi-txt">Yellow Mellow captures joy in pixels, turning moments into memories. With a vibrant touch, we craft visual tales that speak volumes. Your celebrations, our canvas—each frame a masterpiece. Experience the art of storytelling through our lens.</p>
+                            <a className="digi-head">Vision:</a>
+                            <p className="digi-txt">We envision a world where every love story, regardless of its cultural background, is beautifully captured and easily accessible. Our goal is to create an inclusive platform that celebrates diversity through photography, allowing users to connect with their unique narratives.
+                            </p>
                         </div>
                         <div
                             className="individual-digitalinner"
@@ -34,18 +35,12 @@ const Digitalwrape = () => {
                             onMouseEnter={() => handleMouseEnter('digital2')}
                             onMouseLeave={handleMouseLeave}
                         >
-                            <a className="digi-head">For the Discerning Hearts</a>
-                            <p className="digi-txt">Yellow Mellow offers attractive plans and packages crafted with a keen eye for elegance. Our experienced photographers understand the importance of capturing every nuance, ensuring your satisfaction is our top priority.</p>
-                        </div>
-                        <div
-                            className="individual-digitalinner"
-                            id="digital3"
-                            onMouseEnter={() => handleMouseEnter('digital3')}
-                            onMouseLeave={handleMouseLeave}
-                        >
-                            <a className="digi-head">For Those Who Value Authenticity</a>
-                            <p className="digi-txt">Yellow Mellow specializes in premium Candid Wedding Photography that resonates with authenticity. Our skilled photographers understand the significance of candid moments, ensuring your wedding album tells a story that reflects your unique journey.</p>
-                        
+                            <a className="digi-head">Commitments: </a>
+                            <p className="digi-txt">Cultural Celebration: We are dedicated to honoring and showcasing the rich tapestry of different cultures and traditions in every wedding story we capture.
+User-Centric Experience: We commit to providing a seamless and intuitive user experience, enabling easy access to cherished memories through our advanced AI technology.
+Privacy and Security: We prioritize the privacy and security of our users, implementing robust measures to protect their personal data and images.
+Continuous Innovation: We are committed to continually enhancing our platform with the latest technology to improve user experience and photo retrieval.
+Quality and Excellence: Our team of skilled photographers and cinematographers is dedicated to delivering high-quality visual storytelling that reflects the joy and emotion of each unique love story.</p>
                         </div>
                     </div>
                 </div>

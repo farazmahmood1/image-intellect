@@ -50,14 +50,14 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/yellowmellowfilms?igsh=am1oNHpjcHhrdXZp&utm_source=qr" target='_blank'>
+                  <a href="E:\FYP\fyo-frontend\image-intellect" target='_blank'>
                     <FontAwesomeIcon icon={faInstagram} />
                   </a>
                 </li>
               </ul>
               <div>
                 <ul className="address1" style={{ fontSize: "12px" }}>
-                  <li><a href="#">©2024 Yellow Mellow Films</a></li>
+                  <li><a href="#">©2024 Image Intellect</a></li>
                   <li><a href="#">V 1.0.1</a></li>
                 </ul>
               </div>

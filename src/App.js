@@ -9,6 +9,7 @@ import Footer from "./Components/Layout/Footer/Footer";
 import Contact from "./Components/HomePage/Contact/Contact";
 import LoginUser from "./Components/Login/LoginUser";
 import CreateEvent from "./Components/CreateEvent/CreateEvent";
+import ViewGaller from "./Components/Gallery/ViewGaller";
 
 function App() {
 
@@ -41,6 +42,7 @@ function App() {
           <Route path='/contact' element={<Contact />} />
           <Route path='/login' element={<LoginUser />} />
           <Route path='/CreateEvent' element={<CreateEvent />} />
+          <Route path='/ViewEvent' element={<ViewGaller />} />
         </Routes>
         <Footer />
       </div>

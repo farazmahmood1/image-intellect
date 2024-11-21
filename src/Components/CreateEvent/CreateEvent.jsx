@@ -94,7 +94,7 @@ const CreateEvent = () => {
                         <a target='_blank' href='https://wa.me/+30012345678' style={{ textDecoration: "none" }} ><img src={logo} style={{ width: "35px" }} /> +30012345678</a>
                     </div>
                     <div className='contact-details'>
-                        <a target='_blank' href="https://www.instagram.com/yellowmellowfilms?igsh=am1oNHpjcHhrdXZp&utm_source=qr" style={{ textDecoration: "none" }} ><img src={instagram} style={{ width: "25px", marginLeft: "2px" }} />&nbsp;&nbsp;&nbsp;yellowmellowfilms</a>
+                        <a target='_blank' href="" style={{ textDecoration: "none" }} ><img src={instagram} style={{ width: "25px", marginLeft: "2px" }} />&nbsp;&nbsp;&nbsp;image intellect</a>
                     </div>
                 </div>
 
